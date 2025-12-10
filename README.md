@@ -1,73 +1,83 @@
-# Welcome to your Lovable project
+LifePulse – Health Monitoring Dashboard
 
-## Project info
+A modern, real-time health monitoring dashboard built with React, TypeScript, Vite, Tailwind CSS, and shadcn-ui.
+LifePulse visualizes vitals such as heart rate, SpO₂, fall detection, battery levels, and more — designed with a clean and responsive UI.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🚀 Features
 
-## How can I edit this code?
+🔋 Device battery & connectivity status
 
-There are several ways of editing your application.
+❤️ Heart rate visualization
 
-**Use Lovable**
+🌬️ SpO₂ tracking
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+📉 PPG graph display
 
-Changes made via Lovable will be committed automatically to this repo.
+⚠️ Fall detection alerts
 
-**Use your preferred IDE**
+🆘 SOS button with confirmation dialog
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🎛️ Interactive cards & animations
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🌙 Light / Dark mode support
 
-Follow these steps:
+📊 Smooth real-time updates
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+⚡ Fast, optimized performance with Vite
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🛠️ Tech Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+React + TypeScript
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Vite
+
+Tailwind CSS
+
+shadcn/ui components
+
+Radix UI
+
+react-query
+
+Supabase (optional, for auth or database)
+
+📂 Project Structure
+src/
+ ├── components/
+ │    ├── dashboard/
+ │    ├── layout/
+ │    ├── ui/
+ ├── hooks/
+ ├── contexts/
+ ├── pages/
+ ├── lib/
+ ├── main.tsx
+ ├── App.tsx
+public/
+ ├── placeholder.svg
+ ├── vite.svg
+
+⚡ Setup & Installation
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/lifepulse-app.git
+
+# Enter the project
+cd lifepulse-app
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+📦 Build for Production
+npm run build
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🤝 Contributors
 
-**Use GitHub Codespaces**
+LifePulse is developed as a collaborative academic/engineering project.
+Feel free to fork, improve, and contribute.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📜 License
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is private for academic use unless a license is added.
